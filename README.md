@@ -1,6 +1,6 @@
-###   Programming Problems and Solutions
+##  Programming Problems and Solutions
 
-Laravel  Project Deployment in Nginx
+### Laravel  Project Deployment in Nginx 
 
 #### Step-1 : First of all log in to your Ubutu Server
 
