@@ -39,13 +39,13 @@ Laravel  Project Deployment in Nginx
 #### Then add this line in location section inside { }   
 
  * try_files $uri $uri/ /index.php?$query_string;       
- * reference: [Podmedics](https://laravel.com/docs/5.5 "Laravel documentation")
+ * Reference: [Laravel](https://laravel.com/docs/5.5 "Laravel documentation")
 
 #### Then close it and save it  and restart nginx
 
 * Command : sudo systemctl restart nginx
 
-#### Step-4:  give the file permission to  |   reference: [Podmetics](https://laravel.com/docs/5.5)
+#### Step-4:  give the file permission to  |   Reference: [Laravel](https://laravel.com/docs/5.5)
 
 
 #### Storage and  bootstrap/cache
@@ -54,17 +54,17 @@ Command : sudo chmod -R 777 storage
 sudo chmod -R 777 bootstrap/cache/
 
  Step-5:  generate .env file  copy .env.example file to .env
- reference: https://laravel.com/docs/5.5
+ Reference: [Laravel](https://laravel.com/docs/5.5)
 
-Command:  sudo cp  .env.example .env        
+>> Command:  sudo cp  .env.example .env        
 
-then generate app  key  
+>> then generate app  key  
 
-Command: sudo php artisan key:generate
+>> Command: sudo php artisan key:generate
 
-> Then restart nginx
+>> Then restart nginx
 
-> Command:  sudo systemctl restart nginx
+>> Command:  sudo systemctl restart nginx
 
 #### Step 6: Create database
 
